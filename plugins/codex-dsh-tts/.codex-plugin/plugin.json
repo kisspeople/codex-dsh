@@ -1,0 +1,18 @@
+{
+  "name": "codex-dsh-tts",
+  "version": "1.0.0",
+  "description": "Codex DSH with a local Windows TTS nudge when a decision question is unanswered for one minute.",
+  "author": {
+    "name": "kisspeople"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex DSH · TTS",
+    "shortDescription": "Ask, then gently call you back.",
+    "longDescription": "Adds the same in-task decision checkpoints as Codex DSH, plus an optional Windows voice reminder after 60 seconds without a response.",
+    "developerName": "kisspeople",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Productivity", "Local automation"],
+    "defaultPrompt": ["Ask me during the task and use TTS if I go quiet.", "Keep questions concise and actionable."]
+  }
+}
