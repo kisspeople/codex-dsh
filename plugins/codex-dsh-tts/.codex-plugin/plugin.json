@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Codex DSH with a local Windows TTS nudge when a decision question is unanswered for one minute.",
   "author": {
-    "name": "kisspeople"
+    "name": "kisspeople",
+    "url": "https://github.com/kisspeople"
   },
+  "repository": "https://github.com/kisspeople/codex-dsh",
+  "license": "MIT",
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex DSH · TTS",
